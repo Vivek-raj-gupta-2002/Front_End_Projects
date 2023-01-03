@@ -7,7 +7,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event RSVP</title>
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="./questions.css">
+    
 </head>
 <body>
     <!--full screen-->
@@ -21,18 +27,20 @@
         <!--All question with discription-->
         <div id="questions">
 
-            <div id="discription">
+            <div id="discription" class="questions">
 
-                <p>Event RSVP <span>Event Address: 123 Your Street Your City, ST 12345
-                    Contact us at (123) 456-7890 or <a href="mailto:no_reply@example.com">no_reply@example.com</a></span>
+                <p class="head"><span class="heading">Event RSVP </span><br>Event Address: 123 Your Street Your City, ST 12345<br>
+                    Contact us at (123) 456-7890 or <a href="mailto:no_reply@example.com">no_reply@example.com</a>
                 </p>
+
+                <hr>
                 
                 <p>
                     <span class="material-symbols-outlined">
                         visibility_off
                     </span>
 
-                    bharitigupta123@gmail.com (not shared) Switch account<span>* Required</span>
+                    <span class="mail">bharitigupta123@gmail.com (not shared)</span> Switch account<span>* Required</span>
                 </p>
 
                 <span class="material-symbols-outlined">
@@ -44,7 +52,7 @@
             
             <form action="">
 
-                <div id="quest_1">
+                <div id="quest_1" class="questions">
                     <span>Can you attend?</span>
 
                     <div id="true">
@@ -66,7 +74,7 @@
                 </div>
 
 
-                <div id="quest_2">
+                <div id="quest_2" class="questions">
                     <span>What are the names of people attending?</span>
 
                     <input type="text" name="names" id="names">

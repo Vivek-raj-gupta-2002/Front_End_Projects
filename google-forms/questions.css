@@ -1,0 +1,41 @@
+.questions{
+    background-color: #fff;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 8px;
+    margin: 12px 0px;
+    font-family:  Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: black;
+    font-size: 17px;
+
+    padding: 22px 24px 16px 24px;
+}
+
+
+#discription{
+    border-top: 8px solid hwb(1deg 16% 65%);
+    font-size: 15px;
+}
+
+.head{
+    padding-bottom: 20px;
+    
+}
+
+.heading{
+    font-size: 25px;
+    display: block;
+    
+}
+
+.info{
+    border-top: 1px solid rgb(132, 132, 132);
+}
+
+
+.mail{
+    color: #5f6368;
+    font-weight: bold;
+}
+
+
+

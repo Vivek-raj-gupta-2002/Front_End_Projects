@@ -1,0 +1,14 @@
+#banner{
+    background-image: url("./banner_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 22.5vw;
+    max-width: 90vw;
+    width: 640px;
+    height: 160px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 8px;
+
+    margin-top: 12px;
+}
