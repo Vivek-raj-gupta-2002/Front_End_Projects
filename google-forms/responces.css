@@ -1,0 +1,26 @@
+.questionText{
+    font-size: 12pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    display: block;
+    
+}
+
+.radio{
+    bottom: 10px;
+    left: 10px;
+    
+    top: 10px;
+    border: solid 2px;
+    background-color: #5f6368;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+}
+
+.text{
+    font-size: 15px;
+}

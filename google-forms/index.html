@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="container.css">
     <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="./questions.css">
+    <link rel="stylesheet" href="./discription.css">
+    <link rel="stylesheet" href="./responces.css">
     
 </head>
 <body>
@@ -27,46 +29,80 @@
         <!--All question with discription-->
         <div id="questions">
 
-            <div id="discription" class="questions">
+            <div id="discription" class="quest">
 
-                <p class="head"><span class="heading">Event RSVP </span><br>Event Address: 123 Your Street Your City, ST 12345<br>
-                    Contact us at (123) 456-7890 or <a href="mailto:no_reply@example.com">no_reply@example.com</a>
-                </p>
+                <div id="evedis">
 
-                <hr>
-                
-                <p>
-                    <span class="material-symbols-outlined">
-                        visibility_off
-                    </span>
+                    <div id="eventName">
+                        Event RSVP
+                    </div>
 
-                    <span class="mail">bharitigupta123@gmail.com (not shared)</span> Switch account<span>* Required</span>
-                </p>
+                    <div id="dis">
+                        Event Address: 123 Your Street Your City, ST 12345<br>
+                        Contact us at (123) 456-7890 or <a href="mailto:no_reply@example.com"> no_reply@example.com</a>
+                    </div>
 
-                <span class="material-symbols-outlined">
-                    cloud_done
-                </span>    
+                </div>
 
+
+                <div id="seperation">
+
+                </div>
+
+
+                <div id="userinfo">
+                    <div id="upper">
+                        <div id="mail">
+                            <div>
+                                <span class="material-symbols-outlined eye">
+                                    visibility_off
+                                </span>
+                            </div>
+
+                            <div class="">
+                                <span>
+                                    
+                                    bharitigupta123@gmail.com (not shared) Switch account
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="sideDown">
+                            <span class="material-symbols-outlined">
+                                cloud_done
+                            </span>
+                        </div>
+                    </div>
+
+
+
+                    <div id="bottom">
+
+                        *Required
+
+                    </div>
+
+                </div>
             </div>
 
             
             <form action="">
 
-                <div id="quest_1" class="questions">
-                    <span>Can you attend?</span>
+                <div id="quest_1" class="quest">
+                    <span class="questionText">Can you attend?</span>
 
                     <div id="true">
 
-                        <input type="radio" name="attend" id="true">
-                        <span>Yes,  I'll be there</span>
+                        <input type="radio" name="attend" id="true" class="radio">
+                        <span class="text">Yes,  I'll be there</span>
 
                     </div>
 
 
                     <div id="true">
 
-                        <input type="radio" name="attend" id="false">
-                        <span>Sorry, can't make it</span>
+                        <input type="radio" name="attend" id="false" class="radio">
+                        <span class="text">Sorry, can't make it</span>
 
                     </div>
                     
@@ -74,10 +110,10 @@
                 </div>
 
 
-                <div id="quest_2" class="questions">
-                    <span>What are the names of people attending?</span>
+                <div id="quest_2" class="quest">
+                    <span class="questionText">What are the names of people attending?</span>
 
-                    <input type="text" name="names" id="names">
+                    <input type="text" name="names" id="names" placeholder="Your answer">
                 </div>
 
 

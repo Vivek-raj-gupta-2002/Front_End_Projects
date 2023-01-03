@@ -1,41 +1,19 @@
-.questions{
+#seperation{
+    border-top: 1px solid #dadce0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.quest{
+    -webkit-transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    transition: background-color 200ms cubic-bezier(0,0,0.2,1);
     background-color: #fff;
-    border: 1px solid rgb(181, 181, 181);
+    border: 1px solid #dadce0;
     border-radius: 8px;
-    margin: 12px 0px;
-    font-family:  Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    color: black;
-    font-size: 17px;
-
-    padding: 22px 24px 16px 24px;
+    margin-bottom: 12px;
+    padding: 24px;
+    page-break-inside: avoid;
+    word-wrap: break-word;
 }
-
-
-#discription{
-    border-top: 8px solid hwb(1deg 16% 65%);
-    font-size: 15px;
-}
-
-.head{
-    padding-bottom: 20px;
-    
-}
-
-.heading{
-    font-size: 25px;
-    display: block;
-    
-}
-
-.info{
-    border-top: 1px solid rgb(132, 132, 132);
-}
-
-
-.mail{
-    color: #5f6368;
-    font-weight: bold;
-}
-
-
 
