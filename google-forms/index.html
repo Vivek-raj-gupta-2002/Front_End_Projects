@@ -93,15 +93,15 @@
 
                     <div id="true">
 
-                        <input type="radio" name="attend" id="true" class="radio">
+                        <input type="radio" name="attend" class="radio">
                         <span class="text">Yes,  I'll be there</span>
 
                     </div>
 
 
-                    <div id="true">
+                    <div id="false">
 
-                        <input type="radio" name="attend" id="false" class="radio">
+                        <input type="radio" name="attend" class="radio">
                         <span class="text">Sorry, can't make it</span>
 
                     </div>
@@ -113,31 +113,82 @@
                 <div id="quest_2" class="quest">
                     <span class="questionText">What are the names of people attending?</span>
 
-                    <input type="text" name="names" id="names" placeholder="Your answer">
+                    <input type="text" name="names" id="names" placeholder="Your answer" class="inputText">
                 </div>
 
 
-                <div id="submit">
-                    <input type="submit">
+
+                <div id="quest_3" class="quest">
+                    <span class="questionText">How did you hear about this event?</span>
+
+                    <div id="true">
+
+                        <input type="radio" name="attend" class="radio">
+                        <span class="text">Website Friend</span>
+
+                    </div>
+
+
+                    <div id="false">
+
+                        <input type="radio" name="attend" class="radio">
+                        <span class="text">Friend</span>
+
+                    </div>
+                    
+                    
                 </div>
 
-                <div id="clear">
-                    <button id="=clearForm">Clear form</button>
+
+                <div id="quest_4" class="quest">
+                    <span class="questionText">Comments and/or questions</span>
+
+                    <input type="text" name="names" id="names" placeholder="Your answer" class="inputText">
                 </div>
+
+                <div id="buttons">
+
+                    <div>
+                        <input type="submit">
+                    </div>
+    
+                    <div id="clear">
+                        <button id="clearForm">Clear form</button>
+                    </div>
+
+                </div>
+
+                
             </form>
 
 
             <div id="footer">
-                <p>
-                    Never submit passwords through Google Forms.
-                </p>
 
-                <p>
-                    This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy
-                </p>
-                <p>
-                    Google Forms
-                </p>
+                <div>
+
+                    <p class=" myFont">
+                        Never submit passwords through Google Forms.
+                    </p>
+
+                </div>
+                
+                <div>
+
+                    <p class="myFont centerAlign">
+                        This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <p class="centerAlign google">
+                        Google Forms
+                    </p>
+
+                </div>
+                
+                
             </div>
 
         </div>
