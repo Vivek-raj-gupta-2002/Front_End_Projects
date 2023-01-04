@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="container.css">
     <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="./questions.css">
+    <link rel="stylesheet" href="./discription.css">
+    <link rel="stylesheet" href="./responces.css">
     
 </head>
 <body>
@@ -27,46 +29,80 @@
         <!--All question with discription-->
         <div id="questions">
 
-            <div id="discription" class="questions">
+            <div id="discription" class="quest">
 
-                <p class="head"><span class="heading">Event RSVP </span><br>Event Address: 123 Your Street Your City, ST 12345<br>
-                    Contact us at (123) 456-7890 or <a href="mailto:no_reply@example.com">no_reply@example.com</a>
-                </p>
+                <div id="evedis">
 
-                <hr>
-                
-                <p>
-                    <span class="material-symbols-outlined">
-                        visibility_off
-                    </span>
+                    <div id="eventName">
+                        Event RSVP
+                    </div>
 
-                    <span class="mail">bharitigupta123@gmail.com (not shared)</span> Switch account<span>* Required</span>
-                </p>
+                    <div id="dis">
+                        Event Address: 123 Your Street Your City, ST 12345<br>
+                        Contact us at (123) 456-7890 or <a href="mailto:no_reply@example.com"> no_reply@example.com</a>
+                    </div>
 
-                <span class="material-symbols-outlined">
-                    cloud_done
-                </span>    
+                </div>
 
+
+                <div id="seperation">
+
+                </div>
+
+
+                <div id="userinfo">
+                    <div id="upper">
+                        <div id="mail">
+                            <div>
+                                <span class="material-symbols-outlined eye">
+                                    visibility_off
+                                </span>
+                            </div>
+
+                            <div class="">
+                                <span>
+                                    
+                                    bharitigupta123@gmail.com (not shared) Switch account
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="sideDown">
+                            <span class="material-symbols-outlined">
+                                cloud_done
+                            </span>
+                        </div>
+                    </div>
+
+
+
+                    <div id="bottom">
+
+                        *Required
+
+                    </div>
+
+                </div>
             </div>
 
             
             <form action="">
 
-                <div id="quest_1" class="questions">
-                    <span>Can you attend?</span>
+                <div id="quest_1" class="quest">
+                    <span class="questionText">Can you attend?</span>
 
                     <div id="true">
 
-                        <input type="radio" name="attend" id="true">
-                        <span>Yes,  I'll be there</span>
+                        <input type="radio" name="attend" class="radio">
+                        <span class="text">Yes,  I'll be there</span>
 
                     </div>
 
 
-                    <div id="true">
+                    <div id="false">
 
-                        <input type="radio" name="attend" id="false">
-                        <span>Sorry, can't make it</span>
+                        <input type="radio" name="attend" class="radio">
+                        <span class="text">Sorry, can't make it</span>
 
                     </div>
                     
@@ -74,34 +110,85 @@
                 </div>
 
 
-                <div id="quest_2" class="questions">
-                    <span>What are the names of people attending?</span>
+                <div id="quest_2" class="quest">
+                    <span class="questionText">What are the names of people attending?</span>
 
-                    <input type="text" name="names" id="names">
+                    <input type="text" name="names" id="names" placeholder="Your answer" class="inputText">
                 </div>
 
 
-                <div id="submit">
-                    <input type="submit">
+
+                <div id="quest_3" class="quest">
+                    <span class="questionText">How did you hear about this event?</span>
+
+                    <div id="true">
+
+                        <input type="radio" name="attend" class="radio">
+                        <span class="text">Website Friend</span>
+
+                    </div>
+
+
+                    <div id="false">
+
+                        <input type="radio" name="attend" class="radio">
+                        <span class="text">Friend</span>
+
+                    </div>
+                    
+                    
                 </div>
 
-                <div id="clear">
-                    <button id="=clearForm">Clear form</button>
+
+                <div id="quest_4" class="quest">
+                    <span class="questionText">Comments and/or questions</span>
+
+                    <input type="text" name="names" id="names" placeholder="Your answer" class="inputText">
                 </div>
+
+                <div id="buttons">
+
+                    <div>
+                        <input type="submit">
+                    </div>
+    
+                    <div id="clear">
+                        <button id="clearForm">Clear form</button>
+                    </div>
+
+                </div>
+
+                
             </form>
 
 
             <div id="footer">
-                <p>
-                    Never submit passwords through Google Forms.
-                </p>
 
-                <p>
-                    This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy
-                </p>
-                <p>
-                    Google Forms
-                </p>
+                <div>
+
+                    <p class=" myFont">
+                        Never submit passwords through Google Forms.
+                    </p>
+
+                </div>
+                
+                <div>
+
+                    <p class="myFont centerAlign">
+                        This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <p class="centerAlign google">
+                        Google Forms
+                    </p>
+
+                </div>
+                
+                
             </div>
 
         </div>

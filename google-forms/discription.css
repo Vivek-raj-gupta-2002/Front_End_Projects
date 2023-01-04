@@ -1,0 +1,49 @@
+
+
+#userinfo{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eye{
+    margin-right: 14px;
+}
+
+#upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mail{
+    text-align: center;
+    display: flex;
+}
+
+
+.sideDown{
+    margin-top: 12px;
+}
+
+
+#bottom{
+    color: red;
+}
+
+#eventName{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#dis{
+    margin-bottom: 12px;
+}
+
+#discription{
+    border-top: 15px solid brown;
+}
+
+#userinfo{
+    padding-top: 12px;
+}
