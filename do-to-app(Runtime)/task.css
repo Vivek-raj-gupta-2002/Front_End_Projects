@@ -1,0 +1,41 @@
+#taskBar{
+
+    width: 72%;
+    height: 100%;
+    
+    
+    margin: auto;
+}
+
+
+#elements{
+    
+    width: 90%;
+    margin: auto;
+}
+
+
+li{ 
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+li:nth-child(even) {
+    background-color: rgb(237, 237, 237);
+}
+
+
+li:hover{
+    background-color: rgb(246, 219, 183);
+}
+
+p{
+    display: inline;
+    font-size: 20px;
+}
+

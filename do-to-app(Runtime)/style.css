@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(225, 222, 213);
+}
+
+#container{
+    
+    height: 100vh;
+}
+
+
+#searchBar{
+    background-color: rgb(252, 173, 55);
+    border-bottom: 2px solid black;
+    height: 30vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    position: sticky;
+}
+
+#textBox{
+    margin: auto;
+    font-size: 0px;
+}
+
+#textBox input{
+    border-style: none;
+    font-size: 1.2vw;
+    padding: 5px;
+
+}
+
+
+input[type='text']{
+    width: 20vw;
+}
+
+input[type='button']{
+    background-color: rgb(248, 124, 0);
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+
+input[type='button']:hover{
+    background-color: rgb(251, 156, 60);
+}
+
+#title:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 606px) {    
+    input[type='button']{
+        
+        width: 10vw;
+    }
+    
+}
