@@ -25,7 +25,8 @@ header{
 }
 
 nav{
-    padding-top: 36px;
+    padding-top: 18px;
+    margin-top: 18px;
 }
 
 nav ul li{
@@ -40,4 +41,19 @@ nav ul li{
     background: #f5f5f6;
     padding: 7px 17px;
     border: none;
+}
+
+.section1{
+    flex-direction: column;
+    margin: auto;
+}
+
+.section2{
+    max-width: 80vw;
+    margin: auto;
+}
+
+.section2 img{
+    width: 9vw;
+    
 }
