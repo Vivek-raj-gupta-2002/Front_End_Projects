@@ -34,3 +34,10 @@ nav ul li{
     font-size: 12px;
 
 }
+
+.search{
+    width: 24vw;
+    background: #f5f5f6;
+    padding: 7px 17px;
+    border: none;
+}
