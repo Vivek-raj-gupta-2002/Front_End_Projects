@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.logoColor{
+    color: #ff385c;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.spaceEqual{
+    justify-content: space-evenly;
+}
+
+.searchBorder{
+    border-right: 1px solid rgb(175, 175, 175);
+}
+
+.centreHeader{
+    
+    margin-top: 8px;
+}
+
+.certer{
+    margin: auto;
+}
